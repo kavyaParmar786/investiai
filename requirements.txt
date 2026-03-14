@@ -1,0 +1,30 @@
+# InvestiAI Cloud — Python Requirements
+# Install: pip install -r requirements.txt
+
+# ── Core ──────────────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+requests>=2.31.0
+
+# ── FREE AI (Groq — no credit card, 14,400 requests/day free) ────────────────
+groq>=0.9.0
+
+# ── OAuth (Google + GitHub login) ────────────────────────────────────────────
+httpx-oauth>=0.15.0
+
+# ── OCR ───────────────────────────────────────────────────────────────────────
+pytesseract>=0.3.10
+Pillow>=10.0.0
+pdf2image>=1.17.0
+PyMuPDF>=1.24.0
+easyocr>=1.7.0
+
+# ── Translation (free, no key) ────────────────────────────────────────────────
+googletrans==4.0.0-rc1
+
+# ── PDF Export ────────────────────────────────────────────────────────────────
+reportlab>=4.1.0
+python-docx>=1.1.0
+
+# ── Utils ─────────────────────────────────────────────────────────────────────
+numpy>=1.24.0
+python-dateutil>=2.9.0
