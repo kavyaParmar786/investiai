@@ -3,5 +3,6 @@ tesseract-ocr-hin
 tesseract-ocr-guj
 tesseract-ocr-eng
 poppler-utils
-libgl1
-libglib2.0-0
+libglib2.0-0t64
+libpcre2-8-0
+libffi8
